@@ -2,5 +2,6 @@
     0. newly created should display on top......done
     1. search bar shift below.......done
     4. pagination.... done
-    3. sort by order for all
-    2. search 
+    3. sort by order for all....done
+    2. search...done
+    5. git pushed...done

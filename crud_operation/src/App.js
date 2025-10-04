@@ -10,6 +10,7 @@ function App() {
         <Menu />
         <User />
       </div>
+      
 
     </UserProvider>
   )
