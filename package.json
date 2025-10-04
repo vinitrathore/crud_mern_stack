@@ -1,0 +1,19 @@
+{
+  "name": "vinit",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "concurrently \"npm run dev --prefix backend_crud\" \"npm start --prefix crud_operation\""
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "mongoose-sequence": "^6.0.1"
+  }
+}

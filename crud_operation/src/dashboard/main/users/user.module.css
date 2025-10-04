@@ -1,0 +1,167 @@
+/* src/pages/user.module.css */
+
+.user {
+    width: 80vw;
+    padding: 8px ;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #f9f9f9;
+  }
+  .header h2{
+    font-size: 18px;
+  }
+  /* Header Section */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: white;
+    /* padding: 15px; */
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 15px;
+  }
+  
+  .searchbar input {
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+    /* height: 80%; */
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .sub_header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 20px;
+    height: 45px;
+    /* background-color: green;   */
+  }
+  .sub_header h1{
+    font-size: 20px;
+    /* margin-right: 20px; */
+    
+  }
+  .addbtn{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 5px;
+    border: hidden ;
+    height: 90%;
+  }
+  .addbtn:hover{
+    background-color:#007bff;
+    color: white;
+  }
+  .addbtn:active{
+    background-color: #024a96;
+    color: white;
+  }
+  .addbtn p{
+    font-size: 16px;
+    font-weight: 700;
+  }
+  .searchbar{
+    display: flex;
+    align-items: center;
+    position: relative;
+    
+  }
+  .searchbar .clearIcon{
+    /* margin-right: 15px; */
+    position: fixed;
+    right: 30px;
+    top: 26px;
+  }
+  
+  .searchbar input:focus {
+    outline: none;
+    border-color: #007bff;
+  }
+  
+  /* Controls */
+  .controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .createBtn {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 14px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.2s ease;
+  }
+  
+  .createBtn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* User List */
+  .userList {
+    flex: 1;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    overflow-y: auto;
+    height: 75%;
+  }
+  
+  .screen_veiw{
+    height: 100%;
+    width: 100%;
+    /* background-color: #007bff; */
+    display: flex;
+    flex-direction: column;
+  }
+  .heading_class{
+    /* color: white; */
+    font-weight: bold;
+    font-size: 18px;
+  }
+  .heading{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    height: 40px;
+    justify-content: space-evenly;
+    background-color: rgb(230, 233, 235);
+    border-radius: 5px;
+  }
+  #id{
+    /* color: white; */
+  }
+  #name{
+
+  }
+  #email{
+
+  }
+  #phone{
+
+  }
+  .usersview{
+    height: 100%;
+    width: 100%;
+    /* background-color: green; */
+  }

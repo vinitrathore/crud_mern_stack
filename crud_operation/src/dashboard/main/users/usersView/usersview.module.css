@@ -1,0 +1,165 @@
+/* usersview.module.css */
+
+.container {
+    width: 95%;
+    /* max-width: 1000px; */
+    margin: 10px;
+    background-color: #ffffff;
+    padding: 10px 20px;  
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    /* height: 95%; */
+  }
+  
+  .heading {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .tableWrapper {
+    overflow-y: auto;
+    max-height: 350px;
+    border: 1px solid #e0e0e0;
+    border-radius: 6px;
+    
+  }
+  
+  .tableHeader,
+  .tableRow {
+    display: grid;
+    grid-template-columns: 2fr 3fr 2fr 1fr;
+    padding: 12px 16px;
+    border-bottom: 1px solid #f0f0f0;
+    align-items: center;
+  }
+  
+  .tableHeader {
+    background-color: #f8f9fa;
+    font-weight: 500;
+    color: #555;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+  }
+  
+  .tableRow {
+    transition: background 0.2s ease;
+  }
+  
+  .tableRow:hover {
+    background-color: #f9f9f9;
+  }
+  
+  .noUsers {
+    padding: 16px;
+    text-align: center;
+    color: #888;
+  }
+  
+  .actions {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+  }
+  
+  .edit,
+  .delete {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 6px;
+    border-radius: 4px;
+    transition: background-color 0.2s ease;
+  }
+  
+  .edit:hover {
+    background-color: #e2f0ff;
+    color: #007bff;
+  }
+  
+  .delete:hover {
+    background-color: #ffe2e2;
+    color: #dc3545;
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 25px;
+    align-items: center;
+  }
+  
+  .pagination button {
+    padding: 8px 14px;
+    border: 1px solid #ddd;
+    background-color: #f7f7f7;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+  
+  .pagination button:hover {
+    background-color: #eaeaea;
+  }
+  
+  .activePage {
+    background-color: #007bff;
+    color: white;
+    border-color: #007bff;
+  }
+  .header{
+    display: flex;
+    align-items: center;
+    height: 40px;
+    width: 100%;
+    margin: 8px 0;
+    border-radius: 8px;
+    background-color: #f4f4f4;
+    /* justify-content: space-between; */
+    /* margin: 10px; */
+    justify-content: space-between;
+    position: relative;
+  }
+  .searchbar{
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 320px;
+    height: 70%;
+    padding-left: 5px;
+    border: hidden;
+    /* border: .5px solid gray/; */
+    
+    
+  }
+  .header .searchbar input{
+    height: 90%;
+    width: 100%;
+    border: hidden;
+    padding-left: 8px;
+  }
+  .searchbar .clearIcon{
+    /* margin-right: 15px; */
+    position: fixed;
+    left: 645px;
+    top: 104px;
+  }
+  .searchbar input:focus {
+    outline: none;
+    border-color: #007bff;
+  }
+  .limitSelector {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 1rem;
+    padding-right: 10px;
+    padding-top: 10px;
+  }
+  .currentPage{
+
+  }
